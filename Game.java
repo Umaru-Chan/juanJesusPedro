@@ -58,7 +58,6 @@ public class Game {
             if (boll.getX() < player.get(1).getX() + player.get(1).getSide()
                     && boll.getX() > player.get(1).getX() &&
                     boll.getY() + boll.getSide() > player.get(0).getY()) {
-                System.out.println("mitten");
                 bx = 0;
                 by = -by;
             }
@@ -70,7 +69,6 @@ public class Game {
 
                 bx = -15;
                 by = -by;
-                System.out.println("vänstra");
             }
 
             /** Beskriver vad som händer då bollen nuddar fyrkanten till höger*/
@@ -79,7 +77,6 @@ public class Game {
                     boll.getY() + boll.getSide() > player.get(0).getY()) {
                 by = -by;
                 bx = 15;
-                System.out.println("högra");
             }
 
             for (int i = 0; i < targets.size(); i++) {
