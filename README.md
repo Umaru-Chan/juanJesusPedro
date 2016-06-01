@@ -1,3 +1,0 @@
-# juanJesusPedro
-
-ayy lmao
